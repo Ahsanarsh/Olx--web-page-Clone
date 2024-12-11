@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: #003038 !important;
+}
+
+.motor_img,
+.property_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(252, 252, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(252, 252, 252, 1) 54%,
+    rgba(217, 224, 225, 1) 72%
+  ) !important;
+}
+.location select {
+  width: 250px;
+  padding: 12px 10px;
+}
+.search_bar {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  width: 550px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.search_bar input {
+  width: 500px;
+  padding: 9px 0;
+}
+.search_bar button {
+  background-color: black;
+  border: none;
+  height: 100%;
+  width: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.catagories {
+  height: 80vh;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+}
+.Card_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+}
+.Card_1 p {
+  text-align: center;
+  text-transform: capitalize;
+}
+.list_1 {
+  height: 330px;
+}
+.address {
+  font-size: 12px;
+  font-weight: 300;
+  color: lightgray;
+}
+.list_1 p {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.poster2 hr {
+  width: 2.5px;
+  height: 150px;
+  background-color: gray;
+  border: none;
+}
